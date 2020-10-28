@@ -251,7 +251,7 @@ h2 {
 }
 
 article > section {
-    margin: 1em auto 1em;
+    margin: 1em auto 3em;
     padding: 1em 2em 1.5em 2em;
     justify-self: center;
     width: 75%;
@@ -269,9 +269,43 @@ article > section > p {
     margin-top: 0;
 }
 
-#membersgrid {
+#currentmembersgrid {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     display: grid;
+    gap: 20px;
     grid-template: auto auto / repeat(4, 1fr);
+}
+
+#currentmembersgrid > div {
+    object-fit: cover;
+}
+
+#currentmembersgrid > div > img  {
+    width: 100%;
+}
+
+#currentmembersgrid > div > p {
+    margin: 0 0 2em 1em;
+}
+
+#formermembersflex {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+#formermembersflex > div {
+    width: 33%;
+    object-fit: cover;
+}
+
+#formermembersflex > div > img {
+    width: 100%;
+}
+
+#formermembersflex > div > p {
+    margin: 20px 0 2em 1em;
 }
