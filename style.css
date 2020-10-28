@@ -181,7 +181,7 @@ ol > li > ul > li {
     position:relative;
 }
 
-ol > li > ul > li:hover {
+ol > li > ul > li:hover > a {
     color: red;
 }
 
@@ -252,7 +252,7 @@ h2 {
 
 article > section {
     margin: 1em auto 1em;
-    padding: 1em 1em 0 2em;
+    padding: 1em 1em 1.5em 2em;
     justify-self: center;
     width: 75%;
     background-color: #AAAAAA;
