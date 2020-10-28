@@ -45,7 +45,7 @@ body {
 }
 @font-face{
     font-family: metalart;
-    src: url(AmazDooMLeft.ttf);
+    src: url(AmazDooMRight.ttf);
 }
 
 @keyframes arrow{
@@ -257,13 +257,14 @@ article > section {
     width: 75%;
     background-color: #AAAAAA;
     border-radius: 15px;
-    border: red 2px solid;
 }
 
 article > section > h3{
     margin: 0.1em;
-    font-size: 4em;
+    font-size: 3em;
     font-family: metalart;
-    letter-spacing: 0.1em;
+    font-weight: 100;
 }
-article > section > p 
+article > section > p {
+    margin-top: 0;
+}
