@@ -43,6 +43,10 @@ body {
     font-family: slayer;
     src: url(Slaytanic.ttf);
 }
+@font-face{
+    font-family: metalart;
+    src: url(AmazDooMLeft.ttf);
+}
 
 @keyframes arrow{
     0%{
@@ -237,5 +241,5 @@ h2 {
     align-self: center;
     margin: 0 50px;
     font-size: 3em;
-    font-family: slayer;
+    font-family: metalart;
 }
