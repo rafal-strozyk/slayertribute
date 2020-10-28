@@ -225,21 +225,27 @@ main {
 
 article {
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
 }
 
 article > header {
     width: 90%;
-    min-height: 100px;
-    background-color: #9F9C9B;
+    min-height: 6em;
+    background-color: #FF0000;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
+    border-radius: 15px;
+    border: #9F9C9B 3px solid;
 }
 
 h2 {
     align-self: center;
-    margin: 0 50px;
-    font-size: 3em;
+    margin: 2% 50px 0;
+    position: absolute;
+    font-size: 5em;
     font-family: metalart;
-}
+    letter-spacing: 0.1em;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+} 
