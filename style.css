@@ -95,7 +95,7 @@ body {
     margin: 0 auto;
 }
 
-header {
+#page > header {
     display: flex;
     justify-content: center;
     color: #9F9C9B;
@@ -199,8 +199,14 @@ ol > li > ul > li:hover {
     }
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #slayerfig {
-    margin: 0 auto;
+    margin: 0 auto 3em;
     width: 100%;
     margin-top: 14em;
     display: flex;
@@ -211,4 +217,25 @@ ol > li > ul > li:hover {
 #slayer {
     width: 60%;
     height: auto;
+}
+
+article {
+    width: 100%;
+    min-height: 200px;
+}
+
+article > header {
+    width: 90%;
+    min-height: 100px;
+    background-color: #9F9C9B;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    align-self: center;
+    margin: 0 50px;
+    font-size: 3em;
+    font-family: slayer;
 }
