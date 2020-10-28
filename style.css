@@ -252,7 +252,7 @@ h2 {
 
 article > section {
     margin: 1em auto 1em;
-    padding: 1em 1em 1.5em 2em;
+    padding: 1em 2em 1.5em 2em;
     justify-self: center;
     width: 75%;
     background-color: #AAAAAA;
@@ -267,4 +267,11 @@ article > section > h3{
 }
 article > section > p {
     margin-top: 0;
+}
+
+#membersgrid {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template: auto auto / repeat(4, 1fr);
 }
