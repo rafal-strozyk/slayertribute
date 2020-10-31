@@ -346,3 +346,7 @@ table, th, td {
 .nominated {
     background-color: lightpink;
 }
+
+iframe {
+    object-fit: scale-down;
+}
