@@ -329,19 +329,19 @@ table {
 
 table > tbody > tr > td:first-child {
     text-align: center;
-    width: 9%;
+    width: 25%;
 }
 
 table > tbody > tr > td:nth-child(2) {
-    width: 35%;
+    width: 25%;
 }
 
 table > tbody > tr > td:nth-child(3) {
-    width: 40%;
+    width: 25%;
 }
 
 table > tbody > tr > td:last-child {
-    width: 18%;
+    width: 25%;
     text-align: center;
 }
 
@@ -366,9 +366,14 @@ iframe {
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: black;
     color: white;
     height: 3.5em;
     font-size: 1.05em;
+}
+
+footer > div {
+    text-align: center;
+    width: 10%;
 }
