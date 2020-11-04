@@ -4,6 +4,14 @@ body {
     height: auto;
     background: linear-gradient(black, #1E0101);
 }
+
+#uparrow {
+    width: 2vw;
+    height: 2vw;
+    position: fixed;
+    margin: 94vh 96vw;
+}
+
 #introduction {
     width: 100%;
     margin: 0;
@@ -269,6 +277,10 @@ article > section > p {
     margin-top: 0;
 }
 
+#awards > section {
+    margin-bottom: 2em;
+}
+
 #currentmembersgrid {
     margin: 0 auto;
     width: 90%;
@@ -349,4 +361,14 @@ table, th, td {
 
 iframe {
     object-fit: scale-down;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 3.5em;
+    font-size: 1.05em;
 }
