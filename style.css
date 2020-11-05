@@ -362,21 +362,32 @@ table, th, td {
     background-color: lightpink;
 }
 
-iframe {
-    object-fit: scale-down;
-}
-
 footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: black;
-    color: white;
+    color: #9F9C9B;
     height: 3.5em;
-    font-size: 1.05em;
+    font-size: 1.2em;
 }
 
 footer > div {
     text-align: center;
     width: 10%;
+    animation-name: foot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes foot{
+    0%{ 
+        color: #9F9C9B;
+    }
+    50%{
+        color: #B30900;
+    }
+    100%{
+        color: #9F9C9B;
+    }
 }
