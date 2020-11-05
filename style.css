@@ -270,7 +270,7 @@ article > section {
     border-radius: 15px;
 }
 
-article > section > h3{
+article > section > h3 {
     margin: 0.1em;
     font-size: 3em;
     font-family: metalart;
@@ -296,7 +296,7 @@ article > section > p {
     object-fit: cover;
 }
 
-#currentmembersgrid > div > img  {
+#currentmembersgrid > div > img {
     width: 100%;
 }
 
