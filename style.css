@@ -234,6 +234,14 @@ main {
     height: auto;
 }
 
+#info > section {
+    font-size: 115%;
+}
+
+#info > section > p {
+    margin-bottom: 2em;
+}
+
 article {
     width: 100%;
     min-height: 150px;
@@ -298,6 +306,7 @@ article > section > p {
 
 #currentmembersgrid > div > img {
     width: 100%;
+    border-radius: 10px;
 }
 
 #currentmembersgrid > div > p {
@@ -319,6 +328,7 @@ article > section > p {
 
 #formermembersflex > div > img {
     width: 100%;
+    border-radius: 10px;
 }
 
 #formermembersflex > div > p {
